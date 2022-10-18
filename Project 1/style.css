@@ -1,0 +1,86 @@
+body { 
+	background-color: royalblue;
+	background-image: https://cdn.pixabay.com/photo/2016/10/18/21/22/beach-1751455__340.jpg
+	color: #FFF;
+	font-family: Bold, Arial, sans-serif;
+	display:  block;
+	margin: 12px;   
+}
+
+#wrapper { 
+	background-color: #4c1130;
+	margin: auto;
+	width: 85%;
+	min-width: 750px;
+	max-width: 1080px;
+} 
+
+ 
+header { background-color: #6fa8dc; 
+	 text-align: center; 
+	 padding: 5px;
+	 font-family: arial; ;
+}
+
+h1 { 
+	font-size: 6em; 
+	letter-spacing: .2em;
+	color: black; 
+	font-weight: bold;
+	display: block;
+	margin-block-start: 0.67em;
+	margin-block-end: 0.67em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+h2 { 
+	display: block;
+    font-size: 1.5em;
+    color: lightgray;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold; 
+}
+nav { 
+	font-weight: bold; 
+	text-align: center;
+	font-size: 1.5em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #fff;
+	border-bottom: 1px solid #002366;
+}
+
+main { 
+       padding: 2em;
+}
+
+p{
+	display: inline-block;
+	color: #darkgreen;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end:  0px;
+}
+
+.center {
+	text-align: center;
+}
+
+img{
+	padding: 0;
+	margin:  10px;
+	border:  1px solid #080E0E;
+	width: 85%;
+}
+footer { 
+	background-color: blanchedalmond;
+  	font-size: small;
+	text-align: center;
+	padding: 1em;
+	border-top: 2px solid #fff;
+	color: #fff;
+}
