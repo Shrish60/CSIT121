@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F4F4F4;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize !important;
+    color: #14BDAD;
+}
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+    color: #14BDAD;
+}
+
+p {
+    font-family: "Apex Book";
+}
+
+em {
+    color: black;
+}
+
+li {
+    list-style: square;
+}
+
+span {
+    width: 45%;
+    height: 200px;
+    display: block;
+    float: right;
+    background-image: url("images/img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    float: left;
+    width: 45%;
+}
+
+h3,
+br {
+    clear: both;
+}
+
+.shadow {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+footer {
+    margin-top: 15px;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+.main-area {
+    display: flex;
+    gap: 20px;
+}
+
+a:visited {
+    color: #14BDAD;
+}
+
+a:link {
+    color: #004EEF;
+}
+
+a:hover {
+    color: #506C27;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color: #14BDAD;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:last-child {
+    font-weight: bold;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+td[colspan="2"] {
+    text-align: center;
+    font-weight: bold;
+    background-color: #FFC300;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .main-area {
+        display: inline;
+    }
+
+    span,
+    img {
+        float: none;
+        width: 100%;
+    }
+
+    span {
+        margin-top: 10px;
+    }
+}
